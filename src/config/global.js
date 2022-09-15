@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Gestión de portafolio de productos alimenticios',
+    descripcionCurso:
+      'En este componente formativo se desarrollarán los aspectos<br> relacionados con la estructuración de un portafolio de productos, las<br> buenas prácticas de manufactura de alimentos, la clasificación de los<br> mismos por categorías, presentación por unidades de medida, así<br> como se trataran los aspectos relacionados con las fichas técnicas de<br> los productos que componen la oferta de portafolio a impulsar.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -32,13 +41,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Buenas prácticas de manipulación de alimentos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              'Aspectos en los que se deben desarrollar buenas prácticas de manufactura de alimentos',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              'Normativa para las buenas prácticas de manufactura en alimentos',
             hash: 't_1_1',
           },
         ],
@@ -48,7 +65,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Clasificación de Alimentos',
         desarrolloContenidos: true,
       },
       {
