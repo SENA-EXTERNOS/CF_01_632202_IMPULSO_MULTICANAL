@@ -24,13 +24,12 @@
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 Aspectos en los que se deben desarrollar buenas prácticas de manufactura de alimentos
+      h2 1.1 Aspectos en los que se deben desarrollar buenas prácticas de manufactura de alimentos
     
-    figure.mb-5
+    figure.mb-7
       img(src="@/assets/curso/temas/tema1/img3_tema_1.svg", alt="Texto que describa la imagen")
-      <br>
-      <br>
-      p.mb-0 A continuación, se describe cada uno de los aspectos a desarrollar en el ejercicio de buenas prácticas de manufactura de alimentos:
+  
+      p.mb-0-mt-5 A continuación, se describe cada uno de los aspectos a desarrollar en el ejercicio de buenas prácticas de manufactura de alimentos:
 
   .tarjeta.tarjeta--gris.p-4
       LineaTiempoC.color-acento-contenido(text-small)
@@ -80,36 +79,39 @@
             p.mb-0 La empresa deberá aplicar un adecuado sistema de inventarios que permita la correcta rotación y conservación de productos, en conformidad a sus características de vida útil teniendo en cuenta el tiempo de almacenamiento en cuarto fríos, bodegas o anaqueles, los cuales deben estar limpios y con distancias de aislamiento apropiado a piso y a techos. Como se trata de productos altamente perecederos en su mayoría, por ser alimentos, se recomienda llevar un sistema de primeros en entrar, primeros en salir, lo que induce a una adecuada rotación.
 
         .row(titulo="Planes de Saneamiento")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-8.mb-5.mb-md-0
             p <b>Planes de Saneamiento</b>
             p.mb-0 Este aspecto reúne el conjunto de actividades clasificadas por programas, que permiten mantener limpio y saneado el ambiente de la fábrica, bodega, almacén y flota de transportes de alimentos y demás recursos físicos de operación, el cual contempla:
           
-          .col-md-6.mb-4.mb-md-0
+          .col-md-7.mb-5.mb-md-0.mt-5
             figure
               img(src='@/assets/curso/temas/tema1/img9_tema_1.svg', alt='Texto que describa la imagen')
-      br
-      br       
-      .row
+      
+             
+      .row.mt-5
         .col-lg-14
           .cajon.color-acento-contenido.p-4
             .h5 Registro, permiso o Notificación Sanitaria
             p Según las disposiciones contempladas por la Resolución 719 de 2015 (Ministerio de Salud y Protección Social, 2015), todos los alimentos que sean transformados y se comercialicen empacados deberán contar con el respectivo registro sanitario o en su defecto, permiso o notificación sanitaria. 
             p.mb-0 Para ampliar estos aspectos referentes a las condiciones de buenas prácticas de manufactura en alimentos, se sugiere consultar el Anexo: Resolución 2674 De 2013, y el Anexo- abc-inocuidad de alimentos, documentos adjuntos a este componente formativo
-      
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-            .anexo__icono
-             //img(src="@/assets/template/icono-pdf.svg")
-            .anexo__texto
+            .col-lg-6
+              a.anexo.mb-4.mt-5(:href="obtenerLink('/downloads/Anexo-abc-inocuidad_de_alimentos.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <b>Anexo</b>
+                  p.mb-0 632202_CF1_a01_abc-inocuidad de alimentos
+
 
       separador
       #t_1_1.titulo-segundo.color-acento-contenido
-        h2 Normatividad para las buenas prácticas de manufactura en alimentos
+        h2 1.2 Normatividad para las buenas prácticas de manufactura en alimentos
 
       .row
         .col-lg-4
           img(width="100" height="200" src="@/assets/curso/temas/tema1/img10_tema_1.png")
         .col-lg-8
-          p.mb-4 En Colombia se existen normas reglamentarias que promueven y parametrizan las condiciones para las buenas prácticas de manufactura en alimentos y que son de obligatorio cumplimiento por parte de la empresas o personas jurídicas dedicadas a la fabricación, proceso, almacenamiento, distribución, comercialización y transporte de alimentos, las cuales se pueden describir de la siguiente manera:
+          p.mb-4 En Colombia si existen normas reglamentarias que promueven y parametrizan las condiciones para las buenas prácticas de manufactura en alimentos y que son de obligatorio cumplimiento por parte de la empresas o personas jurídicas dedicadas a la fabricación, proceso, almacenamiento, distribución, comercialización y transporte de alimentos, las cuales se pueden describir de la siguiente manera:
       br
       br
       .tabla-c
@@ -135,13 +137,12 @@
             .h5 ANEXO
             p Para complementar estos aspectos normativos de buenas prácticas de manufactura de alimentos y otros relacionados, se invita a consultar el nomograma de la Alcaldía Mayor de Bogotá, que recoge estas dos reglamentaciones, y expone otro conjunto de disposiciones en materia de alimentos, a través del siguiente link:
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+               a.anexo.mb-4.mb-lg-0(href="https://www.alcaldiabogota.gov.co/sisjur/listados/tematica2.jsp?subtema=27896" target="_blank")
                 .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
+                  img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
-                
-    
+                  p <b>Enlace web</b>
+                  p.mb-0 Docuemntos para ALIMENTOS :: Reglamentación
 
 
             
