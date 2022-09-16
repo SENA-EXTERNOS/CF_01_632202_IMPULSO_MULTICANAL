@@ -29,7 +29,7 @@
     figure.mb-7
       img(src="@/assets/curso/temas/tema1/img3_tema_1.svg", alt="Texto que describa la imagen")
   
-      p.mb-0-mt-5 A continuación, se describe cada uno de los aspectos a desarrollar en el ejercicio de buenas prácticas de manufactura de alimentos:
+      p.mb-0.mt-5 A continuación, se describe cada uno de los aspectos a desarrollar en el ejercicio de buenas prácticas de manufactura de alimentos:
 
   .tarjeta.tarjeta--gris.p-4
       LineaTiempoC.color-acento-contenido(text-small)
@@ -79,12 +79,12 @@
             p.mb-0 La empresa deberá aplicar un adecuado sistema de inventarios que permita la correcta rotación y conservación de productos, en conformidad a sus características de vida útil teniendo en cuenta el tiempo de almacenamiento en cuarto fríos, bodegas o anaqueles, los cuales deben estar limpios y con distancias de aislamiento apropiado a piso y a techos. Como se trata de productos altamente perecederos en su mayoría, por ser alimentos, se recomienda llevar un sistema de primeros en entrar, primeros en salir, lo que induce a una adecuada rotación.
 
         .row(titulo="Planes de Saneamiento")
-          .col-md-8.mb-5.mb-md-0
+          .col-md-12.mb-5.mb-md-0
             p <b>Planes de Saneamiento</b>
             p.mb-0 Este aspecto reúne el conjunto de actividades clasificadas por programas, que permiten mantener limpio y saneado el ambiente de la fábrica, bodega, almacén y flota de transportes de alimentos y demás recursos físicos de operación, el cual contempla:
           
           .col-md-7.mb-5.mb-md-0.mt-5
-            figure
+            figure.img_tab1
               img(src='@/assets/curso/temas/tema1/img9_tema_1.svg', alt='Texto que describa la imagen')
       
              
@@ -112,26 +112,43 @@
           img(width="100" height="200" src="@/assets/curso/temas/tema1/img10_tema_1.png")
         .col-lg-8
           p.mb-4 En Colombia si existen normas reglamentarias que promueven y parametrizan las condiciones para las buenas prácticas de manufactura en alimentos y que son de obligatorio cumplimiento por parte de la empresas o personas jurídicas dedicadas a la fabricación, proceso, almacenamiento, distribución, comercialización y transporte de alimentos, las cuales se pueden describir de la siguiente manera:
-      br
-      br
-      .tabla-c
-      table
-      
-        tr
-          th Norma
-          td
-            .h6.mb-0 Descripción
-        tr
-          th 03 de marzo
-          td 
-            p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
-        tr
-          th 03 de marzo
-          td 
-            p.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor. Morbi nunc elit, feugiat a nisl eu, venenatis ultrices dui. Suspendisse at sodales est
-      br
-      br
-      .row
+        .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+      .tabla-a.color-acento-contenido 
+        table
+          thead
+            tr
+              th Norma
+              th Descripción
+          tbody
+            tr
+              td.text-center  
+                .col-lg-12
+                    a.anexo_icono
+                      img(width="70" height="90" src='@/assets/curso/temas/tema1/icon1_tema_1.svg', alt='Texto que describa la imagen')
+                  
+                    p.mt-3.justify-content-around.align-items-center <b>Decreto 3075 de 1997</b> 
+                
+              td El del Ministerio de la protección social en Colombia define las BPM como “Principios básicos y prácticas generales de higiene en la manipulación, preparación, elaboración, envasado, almacenamiento, transporte y distribución de alimentos para consumo humano, con el objeto de garantizar que los productos se fabriquen en condiciones sanitarias adecuadas y se minimicen los riesgos inherentes durante las diferentes etapas de la cadena de producción”. (Presidencia de la República, 1997)
+            tr
+              td.text-center 
+                .col-lg-12
+                    a.anexo_icono
+                      img(width="70" height="90" src='@/assets/curso/temas/tema1/icon1_tema_1.svg', alt='Texto que describa la imagen')
+                
+                    p.mt-3.justify-content-around.align-items-center <b>Resolución 2674 de 2013</b>
+
+              td Establecer los requisitos sanitarios que deben cumplir las personas naturales y/o jurídicas que ejercen actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos y materias primas de alimentos y los requisitos para la notificación, permiso o registro sanitario de los alimentos, según el riesgo en salud pública, con el fin de proteger la vida y la salud de las personas. (Ministerio de.Salud y Protección Social, 2013)
+               
+                .col-lg-12.mt-5
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo-Resolucion-2674-de-2013.pdf')" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-pdf.svg")
+                    .anexo__texto
+                      p <b>Para ver la resolución clic aquí</b>
+                      p.mb-0 Anexo: 632202_CF1_a02_ Resolución 2674 de 2013
+
+      .row.mt-5
         .col-lg-14
           .cajon.color_anexo2.p-4
             .h5 ANEXO

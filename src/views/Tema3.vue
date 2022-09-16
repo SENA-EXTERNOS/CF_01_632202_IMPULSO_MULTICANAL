@@ -27,22 +27,25 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema3/img3_tema_3.svg", alt="alt").img400.m-auto
         .col-lg-8
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Amplitud")
-              .col-12.color_anexo3
-                p.mb-0 Representa el conjunto de categorías o tipos de productos que se comercializa por parte de la empresa, por ejemplo: productos de granos, aceites y grasas, productos de aseo para el hogar.
-
+              .col-md-12.mb-4.mb-md-0
+                p Representa el conjunto de categorías o tipos de productos que se comercializa por parte de la empresa, por ejemplo: productos de granos, aceites y grasas, productos de aseo para el hogar.
+            
             .row(titulo="Extensión horizontal")
-              .col-12.color_anexo3
-                p.mb-0 Corresponde a las diferentes opciones dentro de una línea o categoría, son variaciones de forma en la misma clase de productos, por ejemplo: dentro de los productos de la línea o categoría de productos de aseo para el hogar, se pueden tener dos tipos de detergente para ropa: detergente líquido y en polvo.
+              .col-md-12.mb-4.mb-md-0
+                p Corresponde a las diferentes opciones dentro de una línea o categoría, son variaciones de forma en la misma clase de productos, por ejemplo: dentro de los productos de la línea o categoría de productos de aseo para el hogar, se pueden tener dos tipos de detergente para ropa: detergente líquido y en polvo.
 
             .row(titulo="Extensión vertical o profundidad")
-              .col-12.color_anexo3
-                p.mb-0 Es el conjunto de opciones de un producto que varían de tamaño, cantidad, presentación, entre otros; por ejemplo: dentro de los productos lácteos, leche entera, se puede obtener en galón de 2000 ml o se puede obtener en bolsa larga vida de 1.100 mil, siendo de la misma marca y tipo de producto.
+              .col-md-12.mb-4.mb-md-0
+                p Es el conjunto de opciones de un producto que varían de tamaño, cantidad, presentación, entre otros; por ejemplo: dentro de los productos lácteos, leche entera, se puede obtener en galón de 2000 ml o se puede obtener en bolsa larga vida de 1.100 mil, siendo de la misma marca y tipo de producto.
 
             .row(titulo="Consistencia")
-              .col-12.color_anexo3
-                p.mb-0 Es la coherencia que debe existir al interior de cada categoría entre tipos de productos, tipos de clientes y su distribución, es decir, si una categoría es de productos alimenticios, no debe incluir productos de aseo para el hogar en la misma categoría, así mismo si son lácteos, no debe asociarse con categorías de jabones y detergentes, en caso de promoción y publicidad se debe tener una relación entre cada línea de producto.
+              .col-md-12.mb-4.mb-md-0
+                p Es la coherencia que debe existir al interior de cada categoría entre tipos de productos, tipos de clientes y su distribución, es decir, si una categoría es de productos alimenticios, no debe incluir productos de aseo para el hogar en la misma categoría, así mismo si son lácteos, no debe asociarse con categorías de jabones y detergentes, en caso de promoción y publicidad se debe tener una relación entre cada línea de producto.
+
+    .titulo-sexto.color-acento-contenido.mb-3.mt-5
+      p.mb-0 <b>Tabla 2.</b> Ejemplo de la estructura de un portafolio de producto
 
     .tabla-a.color-acento-contenido 
       table
@@ -55,24 +58,75 @@
             th Consistencia
         tbody
           tr
+            td.text-center
+              .col-lg-12
+                a.anexo_icono
+                  img(width="70" height="90" src='@/assets/curso/temas/tema3/icon1_tema_3.svg', alt='Texto que describa la imagen') 
+          
+              .col-lg-12
+                a.anexo__texto
+                  p.mt-3  <b>Productos Lácteos</b>
+
             td 
-            td Leche entera
-            td 
-            td 
+              .col-lg12
+                a.anexo__texto.text-center
+                  p.mt-3 Leche entera
+            td
+              .col-lg-12
+                a.anexo__texto.text-center
+                  p Tarro x 2.000. ml. 
+                  p Caja  x 1.000. ml. 
+                  p Bolsa x 1.000. ml. 
+                  p Bolsa x   900. ml. 
+
+            td
+              .col-lg12
+                a.anexo__texto.text-center
+                  p.mt-3 Corresponde al mismo tipo de producto, se diferencian por el tipo de empaque, por ende, su vida útil es similar.
           tr
-            td  
-            td Leche deslactosada
+            td
             td 
+              .col-lg12
+                a.anexo__texto.text-center
+                  p.mt-3 Leche deslactosada
+            td 
+              .col-lg-12
+                a.anexo__texto.text-center
+                  p Caja  x 1.000. ml. 
+                  p Bolsa x 1.000. ml. 
+                  p Bolsa x 900. ml.       
           tr
             td 
-            td Yogurt entero
+            td
+              .col-lg12
+                a.anexo__texto.text-center
+                  p.mt-3 Yogurt entero 
             td 
-            td 
+              .col-lg-12.tab-t3
+                a.anexo__texto
+                  p.mb-3 Tarro x 2.000. ml. 
+                  p.mb-3 Bolsa x 1.000. ml. 
+                  p.mb-3 Vaso x  200.  ml. 
+            td
+              .row
+                .col-lg-12
+                  a.anexo__text-center
+                    p.mt-3 Es un derivado lácteo, con vida útil similares.
           tr
             td 
-            td Yogurt fitness
+            td
+              .col-lg12
+                a.anexo__texto.text-center
+                  p.mt-3  Yogurt fitness   
             td 
-            td  
+              .col-lg-12
+                a.anexo__texto.text-center
+                  p.mb-3 Tarro x 2.000. ml. 
+                  p.mb-3 Bolsa x 1.000. ml. 
+                  p.mb-3 Vaso x  200.  ml. 
+            td 
+
+
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Funcionalidad del portafolio
@@ -81,14 +135,14 @@
       .col-lg-12
           p.mb-5 La estructura de un portafolio permite varias funcionalidades que contribuyen a la gestión de mercadeo y ventas en las empresas de alimentos, como son:
       .col-lg-6
-          img(src="@/assets/curso/temas/tema3/img5_tema_3.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema3/img4_tema_3.png", alt="alt")
           figcaption Ejemplo de portafolio de productos en canal convencional y canal web de empresas de alimentos
 
       .col-lg-6
          ol
           li 
-            .lista-ol--cuadro__vineta
-            | Permite el análisis de competitividad de cada uno de los productos y sus presentaciones, así como el análisis de las líneas o categorías a las que corresponden, en aspectos como rotación, margen de contribución unitario y como la rentabilidad de las diferentes líneas o categorías de productos.
+            
+            | <i class="fas fa-angle-down" style="color: #F57C22"></i> Permite el análisis de competitividad de cada uno de los productos y sus presentaciones, así como el análisis de las líneas o categorías a las que corresponden, en aspectos como rotación, margen de contribución unitario y como la rentabilidad de las diferentes líneas o categorías de productos.
           li 
             .lista-ol--cuadro__vineta
             | Facilita identificar los productos más vendidos, los menos vendidos, y sus características, evidenciando a través de qué canales de venta, qué tipo de presentación o variación, etc.     
@@ -129,33 +183,39 @@
      
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2_tema_1.svg')})`}"
-      )
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img6_tema_3.png')})`}"
+        )
       .bloque-texto-g__texto.p-4
         p.mb-0 Los alimentos para su comercialización, venta y distribución requieren de un envase, el cual es el que protege y reserva el alimento para que cumpla su vida útil y lo protege de contaminaciones patógenas, así mismo sirve como instrumento (en muchos casos), de soporte de la ficha de composición e imagen de promoción de marca. Los empaques y embalajes se clasifican de la siguiente manera.
 
 
-    .bg--img_03.mt-5
-      .row.justify-content-left.mb-4
-        .col-lg-12
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-            .row(titulo="Embalaje de venta, empaque primario, o unidad de consumo")
-              .col-6.color_anexo3
-                p.mb-0 es el que guarda y protege el producto y lo protege de manipulaciones directas. Está en contacto directo con el artículo y sirve para mantenerlo en condiciones óptimas. Este embalaje define la unidad de consumo más pequeña, facilitando la venta unitaria del producto. Toma formas muy diversas: botellas, latas, bolsas, etc.
-              .col-6.color_anexo3
-                img(src="@/assets/curso/temas/tema3/img7_tema_3.svg", alt="alt") 
+    AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Embalaje de venta, empaque primario, o unidad de consumo")
+        .col-md-6.mb-4.mb-md-0
+          p es el que guarda y protege el producto y lo protege de manipulaciones directas. Está en contacto directo con el artículo y sirve para mantenerlo en condiciones óptimas. Este embalaje define la unidad de consumo más pequeña, facilitando la venta unitaria del producto. Toma formas muy diversas: botellas, latas, bolsas, etc.
 
-            .row(titulo="Empaque y embalaje secundario o colectivo")
-              .col-6.color_anexo3
-                p.mb-0 Es una agrupación de embalajes primarios que buscan dar mayor protección al producto, facilitando la comercialización del producto a una mayor escala y movilidad. Son, las cajas de cartón (también podrían ser de plástico). Por ejemplo, en el caso de la leche, una bolsa individual sería un embalaje primario y la caja de cartón que contiene seis representaría un embalaje secundario.
-              .col-6.color_anexo3
-                img(src="@/assets/curso/temas/tema3/img8_tema_3.svg", alt="alt")  
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema3/img7_tema_3.svg', alt='Texto que describa la imagen')
 
-            .row(titulo="Embalaje terciario")
-              .col-6.color_anexo3
-                p.mb-0 El embalaje terciario reúne embalajes primarios y secundarios para así crear una unidad de carga mayor cuya forma más extendida son las estibas o contenedores o las cajas de cartón modulares que los conforman.
-              .col-6.color_anexo3
-                img(src="@/assets/curso/temas/tema3/img9_tema_3.svg", alt="alt") 
+      .row(titulo="Embalaje de venta, empaque primario, o unidad de consumo")
+        .col-md-6.mb-4.mb-md-0
+          p Es una agrupación de embalajes primarios que buscan dar mayor protección al producto, facilitando la comercialización del producto a una mayor escala y movilidad. Son, las cajas de cartón (también podrían ser de plástico). Por ejemplo, en el caso de la leche, una bolsa individual sería un embalaje primario y la caja de cartón que contiene seis representaría un embalaje secundario.
+              
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema3/img8_tema_3.svg', alt='Texto que describa la imagen')
+
+      .row(titulo="Embalaje de venta, empaque primario, o unidad de consumo")
+        .col-md-6.mb-4.mb-md-0
+          p El embalaje terciario reúne embalajes primarios y secundarios para así crear una unidad de carga mayor cuya forma más extendida son las estibas o contenedores o las cajas de cartón modulares que los conforman.
+                
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema3/img9_tema_3.svg', alt='Texto que describa la imagen')       
+             
+        
+                      
             
 
 </template>
