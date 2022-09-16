@@ -74,7 +74,7 @@
             td 
             td  
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Funcionalidad del portafolio
 
     .row
@@ -106,7 +106,7 @@
             | Orienta la contratación de personal y distribuidores según las necesidades de la empresa.
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Ruta del protafolio de productos
 
     .row
@@ -124,7 +124,7 @@
       img(src='@/assets/curso/temas/tema3/img10_tema_3.svg', alt='Texto que describa la imagen')
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Empaques y embalaje de alimentos  
      
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5

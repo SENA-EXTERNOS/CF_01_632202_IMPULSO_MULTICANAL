@@ -104,7 +104,7 @@
 
 
       separador
-      #t_1_1.titulo-segundo.color-acento-contenido
+      #t_1_2.titulo-segundo.color-acento-contenido
         h2 1.2 Normatividad para las buenas prácticas de manufactura en alimentos
 
       .row

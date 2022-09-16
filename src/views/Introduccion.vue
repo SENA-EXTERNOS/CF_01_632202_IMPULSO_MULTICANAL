@@ -9,9 +9,6 @@
           i.fas.fa-info
       h1 Introducción
 
-    
-
-    
     .row
       .col-lg-4
           img(width="100" height="100" src="@/assets/curso/temas/introduccion/img_introduccion.svg", alt="alt")

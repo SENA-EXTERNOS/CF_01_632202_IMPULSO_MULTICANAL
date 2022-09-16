@@ -56,7 +56,7 @@ export default {
             numero: '1.2',
             titulo:
               'Normativa para las buenas prácticas de manufactura en alimentos',
-            hash: 't_1_1',
+            hash: 't_1_2',
           },
         ],
       },

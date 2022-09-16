@@ -14,7 +14,7 @@
           img(src="@/assets/curso/temas/tema2/img1_tema_2.svg", alt="alt")
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Clasificación de riesgos en los alimentos
     .row
       .col-lg-4
@@ -57,7 +57,7 @@
               img(src='@/assets/curso/temas/tema2/img5_tema_2.svg', alt='Texto que describa la imagen')
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Normativa para las buenas prácticas de manufactura en alimentos 
     .row
       .col-lg-6
@@ -148,7 +148,7 @@
                   p.mb-0 Resolución_719_de_2015-Clasificación de Alimentos
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Propiedades organolépticas
 
     figure
