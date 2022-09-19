@@ -75,7 +75,7 @@
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta2
-              span 1 
+              span(style="font-weight:bold") 1 
             | Leche y sus derivados, así como productos de imitación
           li 
             .lista-ol--cuadro__vineta2
@@ -151,17 +151,21 @@
     #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Propiedades organolépticas
 
+    .row
+      .col-lg-12
+          p.mb-0 Son las características naturales que diferencian a los alimentos, y que se pueden reconocer a través de los sentidos cómo el gusto, la vista o el olfato. En el siguiente vídeo se explican a detalle las propiedades.
+
     figure
-      .video
+      .video.mt-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video  
 
     .row.mt-5
         .col-lg-14
-          .cajon.color_anexo2.p-4
-            .h5 Anexo
+          .cajon.color_anexo3.p-4
+            .h5 Propiedades organolépticas de los alimentos
             p Para efectos de ampliar estos aspectos propios de las características organolépticas de los alimentos como un complemento a las pruebas físicas, y como mecanismo de verificación de idoneidad de los alimentos, se sugiere revisar el <b>Anexo- Propiedades organolépticas de los alimentos.</b>
-            .col-lg-6
+            .col-lg-8
               a.anexo.mb-4.mt-5(:href="obtenerLink('/downloads/Anexo-Propiedades organolepticas de los alimentos.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")

@@ -7,12 +7,13 @@
         span 3
       h1 Portafolio de productos y categorías
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
+    .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5
+  
+      .bloque-texto-g__img2(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1_tema_3.svg')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Portafolio es un vocablo que viene del francés: portefeuille, que representa una especie de maletín o cartera de mano que se usa para llevar documentos, libros y otros papeles, refiriéndose a un accesorio de utilización común por parte de trabajadores de oficina para llevar cosas o documentos de negocios. Hoy por hoy este término refiere al grupo de productos que una empresa o marca ofrece a todo su mercado objetivo, los cuales ordena por grupos de líneas de productos, categorías, marcas, y, por último, el conjunto de productos propiamente que vende.
+      .bloque-texto-g__texto2.p-4
+        p.mb-0 Portafolio es un vocablo que viene del francés: <i>portefeuille</i>, que representa una especie de maletín o cartera de mano que se usa para llevar documentos, libros y otros papeles, refiriéndose a un accesorio de utilización común por parte de trabajadores de oficina para llevar cosas o documentos de negocios. Hoy por hoy este término refiere al grupo de productos que una empresa o marca ofrece a todo su mercado objetivo, los cuales ordena por grupos de líneas de productos, categorías, marcas, y, por último, el conjunto de productos propiamente que vende.
 
     h4.mt-5 Componentes de la estructura de un portafolio
     p.mb-0 La estructura de un portafolio comercial de productos contempla cuatro aspectos que definen los niveles de agrupación básicamente, los cuales se muestran en la siguiente figura: 
@@ -44,6 +45,10 @@
               .col-md-12.mb-4.mb-md-0
                 p Es la coherencia que debe existir al interior de cada categoría entre tipos de productos, tipos de clientes y su distribución, es decir, si una categoría es de productos alimenticios, no debe incluir productos de aseo para el hogar en la misma categoría, así mismo si son lácteos, no debe asociarse con categorías de jabones y detergentes, en caso de promoción y publicidad se debe tener una relación entre cada línea de producto.
 
+    .row
+      .col-lg-12
+      p.mb-0 En la siguiente tabla se presenta un ejemplo de cómo se puede realizar la estructura de un producto. 
+    
     .titulo-sexto.color-acento-contenido.mb-3.mt-5
       p.mb-0 <b>Tabla 2.</b> Ejemplo de la estructura de un portafolio de producto
 
@@ -58,7 +63,7 @@
             th Consistencia
         tbody
           tr
-            td.text-center
+            td(rowspan="4").text-center 
               .col-lg-12
                 a.anexo_icono
                   img(width="70" height="90" src='@/assets/curso/temas/tema3/icon1_tema_3.svg', alt='Texto que describa la imagen') 
@@ -79,12 +84,11 @@
                   p Bolsa x 1.000. ml. 
                   p Bolsa x   900. ml. 
 
-            td
+            td(rowspan="2")
               .col-lg12
                 a.anexo__texto.text-center
                   p.mt-3 Corresponde al mismo tipo de producto, se diferencian por el tipo de empaque, por ende, su vida útil es similar.
           tr
-            td
             td 
               .col-lg12
                 a.anexo__texto.text-center
@@ -94,9 +98,9 @@
                 a.anexo__texto.text-center
                   p Caja  x 1.000. ml. 
                   p Bolsa x 1.000. ml. 
-                  p Bolsa x 900. ml.       
+                  p Bolsa x 900. ml.  
+                      
           tr
-            td 
             td
               .col-lg12
                 a.anexo__texto.text-center
@@ -107,13 +111,13 @@
                   p.mb-3 Tarro x 2.000. ml. 
                   p.mb-3 Bolsa x 1.000. ml. 
                   p.mb-3 Vaso x  200.  ml. 
-            td
+            td(rowspan="2")
               .row
                 .col-lg-12
                   a.anexo__text-center
                     p.mt-3 Es un derivado lácteo, con vida útil similares.
           tr
-            td 
+             
             td
               .col-lg12
                 a.anexo__texto.text-center
@@ -124,7 +128,7 @@
                   p.mb-3 Tarro x 2.000. ml. 
                   p.mb-3 Bolsa x 1.000. ml. 
                   p.mb-3 Vaso x  200.  ml. 
-            td 
+            
 
 
     separador
@@ -133,30 +137,36 @@
 
     .row
       .col-lg-12
-          p.mb-5 La estructura de un portafolio permite varias funcionalidades que contribuyen a la gestión de mercadeo y ventas en las empresas de alimentos, como son:
+          p.mb-5 <b>La estructura de un portafolio permite varias funcionalidades que contribuyen a la gestión de mercadeo y ventas en las empresas de alimentos, como son:</b>
       .col-lg-6
           img(src="@/assets/curso/temas/tema3/img4_tema_3.png", alt="alt")
-          figcaption Ejemplo de portafolio de productos en canal convencional y canal web de empresas de alimentos
+          figcaption <p>Ejemplo de portafolio de productos en canal convencional y canal web de empresas de alimentos</p>
 
-      .col-lg-6
-         ol
+      .col-sm.mb-5.mb-sm-0
+        h4 
+        ul.lista-ul--color
           li 
-            
-            | <i class="fas fa-angle-down" style="color: #F57C22"></i> Permite el análisis de competitividad de cada uno de los productos y sus presentaciones, así como el análisis de las líneas o categorías a las que corresponden, en aspectos como rotación, margen de contribución unitario y como la rentabilidad de las diferentes líneas o categorías de productos.
+            i.fas.fa-check
+            | Permite el análisis de competitividad de cada uno de los productos y sus presentaciones, así como el análisis de las líneas o categorías a las que corresponden, en aspectos como rotación, margen de contribución unitario y como la rentabilidad de las diferentes líneas o categorías de productos.
+          
           li 
-            .lista-ol--cuadro__vineta
+            i.fas.fa-check
             | Facilita identificar los productos más vendidos, los menos vendidos, y sus características, evidenciando a través de qué canales de venta, qué tipo de presentación o variación, etc.     
+          
           li 
-            .lista-ol--cuadro__vineta 
+            i.fas.fa-check
             | Permite realizar estudios de precios, ya que posibilita la comparar con la competencia cuales obedecen permiten la viabilidad rentable. El portafolio de productos permite tomar decisiones respecto de estrategias comerciales, reforzando los más débiles y ampliando los productos más fuertes.
-          li 
-            .lista-ol--cuadro__vineta
+    
+          li
+            i.fas.fa-check
             | Facilita las ventas pues la contribución de un portafolio permite que los clientes identifiquen las posibilidades de compra, y que otras opciones de productos pueden acceder por marca o por categoría.
-          li 
-            .list-ol--cuadro__vineta 
+
+          li
+            i.fas.fa-check 
             | En general el portafolio y su comportamiento define las estacionalidades de venta, desde el análisis de cada línea o producto, en función del periodo de venta en un año, es decir en qué época se vende más o menos cada producto, lo que facilita la planeación y programación de la producción.
-          li 
-            .lista-ol--cuadro__vineta
+          
+          li
+            i.fas.fa-check 
             | Orienta la contratación de personal y distribuidores según las necesidades de la empresa.
 
     separador
@@ -168,20 +178,24 @@
           img(src="@/assets/curso/temas/tema3/img5_tema_3.svg", alt="alt") 
       .col-lg-6
           p.mb-5 Cada categoría o producto dentro de una línea puede ser administrado por un director independiente y distinto, quienes establecerán un plan de acción individual y objetivos a corto plazo. La ruta de portafolio de producto es una herramienta que permite visualizar cómo se correlacionan los planes de cada línea o producto dentro de los objetivos generales de la empresa; en general la ruta de portafolio establece las estrategias y la dirección de todo el equipo de productos, facilitando comunicar cómo esperan que evolucione cada producto, y la relación con las otras líneas, los plazos y los objetivos de las diferentes áreas de una empresa.
-          p.mb-0 Dentro de la ruta de portafolio se define que categorías o líneas de producto se deben ofertar en cada uno de los canales: página web, redes sociales, Apps, banners promocionales, canales de tiendas de barrio, canales de grandes superficies etc., así mismo, con las extensiones horizontales y su presentación o extensión vertical, lo que debe orientarse a las metas y proyectos desde cada dirección de categoría o producto.
-
+          p.mb-5 Dentro de la ruta de portafolio se define que categorías o líneas de producto se deben ofertar en cada uno de los canales: página web, redes sociales, Apps, banners promocionales, canales de tiendas de barrio, canales de grandes superficies etc., así mismo, con las extensiones horizontales y su presentación o extensión vertical, lo que debe orientarse a las metas y proyectos desde cada dirección de categoría o producto.
+      .col-lg-12
+          p.mb-0-mt-5 A continuación, se presenta un ejemplo de la ruta de un portafolio de producto a través de un esquema o tabla.  
+   
+   
     .titulo-sexto.color-acento-contenido.mb-3.mt-5
       p.mb-0 <b>Figura.</b> Ejemplo de un esquema de ruta de portafolio de productos
-       
-          
+         
     figure
       img(src='@/assets/curso/temas/tema3/img10_tema_3.svg', alt='Texto que describa la imagen')
+      br
+      figcaption <p>Fuente: elaboración propia experto</p>
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Empaques y embalaje de alimentos  
      
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img6_tema_3.png')})`}"
         )

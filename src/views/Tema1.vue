@@ -15,7 +15,7 @@
           p.mb-5 El desarrollo de la actividades relacionadas con la manipulación de alimentos presumen niveles de contaminación de diversas formas y diversos orígenes lo que estimula su degradación y daño de los mismos; por tanto con el paso de los años se hizo perentorio el mejoramiento de los procesos y actividades humanas cuando entran en contacto con los alimentos, siendo así, que surgen <b>las denominadas BPM que significa:</b> Buenas Prácticas de Manufactura, las cuales se pueden definir como <b style= "color:#F57C22;">el conjunto de lineamientos generales que se establece por parte de las entidades de control sanitario, para promover y preservar la  higiene en los procesos y actividades donde se realiza manipulación, adecuación, preparación, elaboración o armado, almacenamiento, envase, transporte, distribución.</b>    
 
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2_tema_1.svg')})`}"
       )
@@ -82,10 +82,15 @@
           .col-md-12.mb-5.mb-md-0
             p <b>Planes de Saneamiento</b>
             p.mb-0 Este aspecto reúne el conjunto de actividades clasificadas por programas, que permiten mantener limpio y saneado el ambiente de la fábrica, bodega, almacén y flota de transportes de alimentos y demás recursos físicos de operación, el cual contempla:
-          
-          .col-md-7.mb-5.mb-md-0.mt-5
-            figure.img_tab1
+        
+        
+          .col-md-10.mb-5.mb-md-0
+            .titulo-sexto.color-acento-contenido.mb-3.mt-5
+              p.mb-0 <b>Figura.</b> Técnica general de proceso de desinfección y limpieza
+
+            figure
               img(src='@/assets/curso/temas/tema1/img9_tema_1.svg', alt='Texto que describa la imagen')
+              figcaption.mt-5 <p>Fuente: elaboración propia experto</p>
       
              
       .row.mt-5
@@ -150,17 +155,16 @@
 
       .row.mt-5
         .col-lg-14
-          .cajon.color_anexo2.p-4
-            .h5 ANEXO
-            p Para complementar estos aspectos normativos de buenas prácticas de manufactura de alimentos y otros relacionados, se invita a consultar el nomograma de la Alcaldía Mayor de Bogotá, que recoge estas dos reglamentaciones, y expone otro conjunto de disposiciones en materia de alimentos, a través del siguiente link:
-            .col-lg-6
-               a.anexo.mb-4.mb-lg-0(href="https://www.alcaldiabogota.gov.co/sisjur/listados/tematica2.jsp?subtema=27896" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p <b>Enlace web</b>
-                  p.mb-0 Docuemntos para ALIMENTOS :: Reglamentación
+          .cajon.color_anexo2.p-4.cajon.color-acento-contenido2
 
+            .h5 Reglas y disposiciones en materia de alimentos
+            p Para complementar estos aspectos normativos de buenas prácticas de manufactura de alimentos y otros relacionados, se invita a consultar el nomograma de la Alcaldía Mayor de Bogotá, que recoge estas dos reglamentaciones, y expone otro conjunto de disposiciones en materia de alimentos, a través del siguiente link:
+          a.anexo.mb-4.mb-lg-0(href="https://www.alcaldiabogota.gov.co/sisjur/listados/tematica2.jsp?subtema=27896" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p <b>Enlace web</b>
+              p Docuemntos para ALIMENTOS :: Reglamentación
 
             
 </template>
