@@ -82,12 +82,12 @@
           .col-md-12.mb-5.mb-md-0
             p <b>Planes de Saneamiento</b>
             p.mb-0 Este aspecto reúne el conjunto de actividades clasificadas por programas, que permiten mantener limpio y saneado el ambiente de la fábrica, bodega, almacén y flota de transportes de alimentos y demás recursos físicos de operación, el cual contempla:
-        
-        
+ 
           .col-md-10.mb-5.mb-md-0
             .titulo-sexto.color-acento-contenido.mb-3.mt-5
               p.mb-0 <b>Figura.</b> Técnica general de proceso de desinfección y limpieza
 
+          .col-md-10
             figure
               img(src='@/assets/curso/temas/tema1/img9_tema_1.svg', alt='Texto que describa la imagen')
               figcaption.mt-5 <p>Fuente: elaboración propia experto</p>
@@ -155,7 +155,7 @@
 
       .row.mt-5
         .col-lg-14
-          .cajon.color_anexo2.p-4.cajon.color-acento-contenido2
+          .cajon.color_anexo2.p-4
 
             .h5 Reglas y disposiciones en materia de alimentos
             p Para complementar estos aspectos normativos de buenas prácticas de manufactura de alimentos y otros relacionados, se invita a consultar el nomograma de la Alcaldía Mayor de Bogotá, que recoge estas dos reglamentaciones, y expone otro conjunto de disposiciones en materia de alimentos, a través del siguiente link:

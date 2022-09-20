@@ -162,7 +162,7 @@
 
     .row.mt-5
         .col-lg-14
-          .cajon.color_anexo3.p-4
+          .cajon.color_anexo2.p-4
             .h5 Propiedades organolépticas de los alimentos
             p Para efectos de ampliar estos aspectos propios de las características organolépticas de los alimentos como un complemento a las pruebas físicas, y como mecanismo de verificación de idoneidad de los alimentos, se sugiere revisar el <b>Anexo- Propiedades organolépticas de los alimentos.</b>
             .col-lg-8

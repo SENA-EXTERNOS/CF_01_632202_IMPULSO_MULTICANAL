@@ -106,8 +106,8 @@
                 a.anexo__texto.text-center
                   p.mt-3 Yogurt entero 
             td 
-              .col-lg-12.tab-t3
-                a.anexo__texto
+              .col-lg-12
+                a.anexo__texto.text-center
                   p.mb-3 Tarro x 2.000. ml. 
                   p.mb-3 Bolsa x 1.000. ml. 
                   p.mb-3 Vaso x  200.  ml. 
