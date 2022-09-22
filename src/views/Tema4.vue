@@ -13,28 +13,29 @@
       .col-lg-8
         p.mb-4 En la industria de los alimentos, la ficha técnica es un documento pequeño de carácter obligatorio y legal, que se incluye en el empaque primario.  Se utiliza para informar a los consumidores finales y clientes en general, así como a las autoridades sanitarias, respecto de las características de un producto alimenticio, incluyendo las condiciones de conservación y presentación de ingredientes, los peligros que puede tener el consumo, la lista de los aportes y valores nutricionales, entre otros aspectos. Es el nivel de información necesaria que se debe publicar para la comercialización de cualquier producto alimentario.
     
- 
-    .titulo-sexto.color-acento-contenido.mb-3.mt-5
-      p.mb-0 <b>Figura.</b> Ficha técnica de ejemplo: producto alimenticio de Helado de Fruta
-            
-    .row
-      .col-lg-12  
+    .row.img1_t1
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3.mt-5
+          p.mb-0 <b>Figura.</b> Ficha técnica de ejemplo: producto alimenticio de Helado de Fruta
+
+      .col-lg-10  
         figure
           img(src='@/assets/curso/temas/tema4/img2_tema_4.svg', alt='Texto que describa la imagen')
           figcaption <p>Fuente: slideshare.net - Ficha técnica de helado de frutas</p>
 
-      a.anexo.mb-4.mb-lg-0.mt-5(href="https://es.slideshare.net/leticiaromeroquebrandogarvimbas/ficha-tecnica-de-helado-de-frutas" target="_blank")
-        .anexo__icono
-          img(src="@/assets/template/icono-link.svg")
-        .anexo__texto
-          p <b>Enlace web</b>
-          p.mb-0 slideshare.net - Ficha técnica de helado de frutas
+      .col-lg-10
+        a.anexo.mb-4.mb-lg-0.mt-3(href="https://es.slideshare.net/leticiaromeroquebrandogarvimbas/ficha-tecnica-de-helado-de-frutas" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p <b>Enlace web</b>
+            p.mb-0 slideshare.net - Ficha técnica de helado de frutas
 
-      separador
-      #t_4_1.titulo-segundo.color-acento-contenido
-        h2 4.1  Elementos que debe contener una ficha técnica
+    
+    #t_4_1.titulo-segundo.color-acento-contenido.mt-5
+      h2 4.1  Elementos que debe contener una ficha técnica
 
-      .row
+    .row
       .col-lg-12
           p.mb-0 En lo posible las fichas técnicas de los productos alimentarios deben contener la siguiente información:
 
@@ -87,22 +88,25 @@
         h2 4.2  Identificación electrónica de productos
       
       .row
-        .col-lg-6
-          p.mb-4 Esto se hace por medio de código de barras y/o código de barras QR, que son una imagen compuesta de líneas barras o puntos, que identifica a un producto en todos los países. 
+        .col-lg-7
+          p.mb-3 Esto se hace por medio de código de barras y/o código de barras QR, que son una imagen compuesta de líneas barras o puntos, que identifica a un producto en todos los países. 
           p.mb-0 El código de barras se compone de un código numérico único que es requisito para que el producto pueda venderse en tiendas y supermercados, porque identifica el país de procedencia, la empresa, el producto e inclusive el lote. En el caso de los códigos QR, es una combinación de puntos y barras que alberga mucha más información de los productos alimentarios, la cual puede ser: alfanumérico que puede almacenar hasta 4.296 caracteres, numérico que puede tener hasta 7,089 caracteres, y binario: llega a almacenar hasta 2,953 bytes, lo que permite albergar incluso imágenes.
-        .col-lg-6
+        .col-lg-5
           img(src="@/assets/curso/temas/tema4/img4_tema_4.svg")
 
-      .titulo-sexto.color-acento-contenido.mb-3.mt-5
-        p.mb-0 <b>Figura.</b> Uso de códigos de barras para la identificación de productos alimenticios
-      figure
-        img(src='@/assets/curso/temas/tema4/img5_tema_4.svg', alt='Texto que describa la imagen')
+      .row.img1_t1
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3.mt-5
+            p.mb-0 <b>Figura.</b> Uso de códigos de barras para la identificación de productos alimenticios
+          
+        .col-lg-10   
+          figure
+            img(src='@/assets/curso/temas/tema4/img5_tema_4.svg', alt='Texto que describa la imagen')
 
-      .row.mt-5
-        .col-lg-12
-        .cajon.color_anexo2.p-4
-          p Para finalizar, recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
-        
+        .col-lg-10.mt-3
+          .cajon.color_anexo2.p-4
+            p Para finalizar, recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+          
           
     
 

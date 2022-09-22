@@ -14,12 +14,16 @@
       )
       .bloque-texto-g__texto2.p-4
         p.mb-0 Portafolio es un vocablo que viene del francés: <i>portefeuille</i>, que representa una especie de maletín o cartera de mano que se usa para llevar documentos, libros y otros papeles, refiriéndose a un accesorio de utilización común por parte de trabajadores de oficina para llevar cosas o documentos de negocios. Hoy por hoy este término refiere al grupo de productos que una empresa o marca ofrece a todo su mercado objetivo, los cuales ordena por grupos de líneas de productos, categorías, marcas, y, por último, el conjunto de productos propiamente que vende.
+   
+    .row
+      .col-lg-12
+        h4.mt-5 Componentes de la estructura de un portafolio
+        p.mb-0 La estructura de un portafolio comercial de productos contempla cuatro aspectos que definen los niveles de agrupación básicamente, los cuales se muestran en la siguiente figura: 
 
-    h4.mt-5 Componentes de la estructura de un portafolio
-    p.mb-0 La estructura de un portafolio comercial de productos contempla cuatro aspectos que definen los niveles de agrupación básicamente, los cuales se muestran en la siguiente figura: 
-
-    figure.mt-5
-      img(src='@/assets/curso/temas/tema3/img2_tema_3.svg', alt='Texto que describa la imagen')
+    .row.img1_t1
+      .col-lg-10
+        figure.mt-5
+          img(src='@/assets/curso/temas/tema3/img2_tema_3.svg', alt='Texto que describa la imagen')
 
 
     .bg--img_03.mt-5
@@ -49,100 +53,105 @@
       .col-lg-12
       p.mb-0 En la siguiente tabla se presenta un ejemplo de cómo se puede realizar la estructura de un producto. 
     
-    .titulo-sexto.color-acento-contenido.mb-3.mt-5
-      p.mb-0 <b>Tabla 2.</b> Ejemplo de la estructura de un portafolio de producto
+    .row.img1_t1
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3.mt-5
+          p.mb-0 <b>Tabla 2.</b> Ejemplo de la estructura de un portafolio de producto
 
-    .tabla-a.color-acento-contenido 
-      table
-        caption Fuente: elaboración propia experto
-        thead
-          tr
-            th Amplitud
-            th Extensión Horizontal
-            th Extensión Vertical o Profundidad
-            th Consistencia
-        tbody
-          tr
-            td(rowspan="4").text-center 
-              .col-lg-12
-                a.anexo_icono
-                  img(width="70" height="90" src='@/assets/curso/temas/tema3/icon1_tema_3.svg', alt='Texto que describa la imagen') 
-          
-              .col-lg-12
-                a.anexo__texto
-                  p.mt-3  <b>Productos Lácteos</b>
+        .tabla-a.color-acento-contenido 
+          table
+            caption <p>Fuente: elaboración propia experto</p>
+            thead
+              tr
+                th Amplitud
+                th Extensión Horizontal
+                th Extensión Vertical o Profundidad
+                th Consistencia
+            tbody
+              tr
+                td(rowspan="4").text-center 
+                  .col-lg-12
+                    a.anexo_icono
+                      img(width="70" height="90" src='@/assets/curso/temas/tema3/icon1_tema_3.svg', alt='Texto que describa la imagen') 
+              
+                  .col-lg-12
+                    a.anexo__texto
+                      p.mt-3  <b>Productos Lácteos</b>
 
-            td 
-              .col-lg12
-                a.anexo__texto.text-center
-                  p.mt-3 Leche entera
-            td
-              .col-lg-12
-                a.anexo__texto.text-center
-                  p Tarro x 2.000. ml. 
-                  p Caja  x 1.000. ml. 
-                  p Bolsa x 1.000. ml. 
-                  p Bolsa x   900. ml. 
+                td 
+                  .col-lg12
+                    a.anexo__texto.text-center
+                      p.mt-3 Leche entera
+                td
+                  .col-lg-12
+                    a.anexo__texto.text-center
+                      p Tarro x 2.000. ml. 
+                      p Caja  x 1.000. ml. 
+                      p Bolsa x 1.000. ml. 
+                      p Bolsa x   900. ml. 
 
-            td(rowspan="2")
-              .col-lg12
-                a.anexo__texto.text-center
-                  p.mt-3 Corresponde al mismo tipo de producto, se diferencian por el tipo de empaque, por ende, su vida útil es similar.
-          tr
-            td 
-              .col-lg12
-                a.anexo__texto.text-center
-                  p.mt-3 Leche deslactosada
-            td 
-              .col-lg-12
-                a.anexo__texto.text-center
-                  p Caja  x 1.000. ml. 
-                  p Bolsa x 1.000. ml. 
-                  p Bolsa x 900. ml.  
-                      
-          tr
-            td
-              .col-lg12
-                a.anexo__texto.text-center
-                  p.mt-3 Yogurt entero 
-            td 
-              .col-lg-12
-                a.anexo__texto.text-center
-                  p.mb-3 Tarro x 2.000. ml. 
-                  p.mb-3 Bolsa x 1.000. ml. 
-                  p.mb-3 Vaso x  200.  ml. 
-            td(rowspan="2")
-              .row
-                .col-lg-12
-                  a.anexo__text-center
-                    p.mt-3 Es un derivado lácteo, con vida útil similares.
-          tr
-             
-            td
-              .col-lg12
-                a.anexo__texto.text-center
-                  p.mt-3  Yogurt fitness   
-            td 
-              .col-lg-12
-                a.anexo__texto.text-center
-                  p.mb-3 Tarro x 2.000. ml. 
-                  p.mb-3 Bolsa x 1.000. ml. 
-                  p.mb-3 Vaso x  200.  ml. 
-            
+                td(rowspan="2")
+                  .col-lg12
+                    a.anexo__texto.text-center
+                      p.mt-3 Corresponde al mismo tipo de producto, se diferencian por el tipo de empaque, por ende, su vida útil es similar.
+              tr
+                td 
+                  .col-lg12
+                    a.anexo__texto.text-center
+                      p.mt-3 Leche deslactosada
+                td 
+                  .col-lg-12
+                    a.anexo__texto.text-center
+                      p Caja  x 1.000. ml. 
+                      p Bolsa x 1.000. ml. 
+                      p Bolsa x 900. ml.  
+                          
+              tr
+                td
+                  .col-lg12
+                    a.anexo__texto.text-center
+                      p.mt-3 Yogurt entero 
+                td 
+                  .col-lg-12
+                    a.anexo__texto.text-center
+                      p.mb-3 Tarro x 2.000. ml. 
+                      p.mb-3 Bolsa x 1.000. ml. 
+                      p.mb-3 Vaso x  200.  ml. 
+                td(rowspan="2")
+                  .row
+                    .col-lg-12
+                      a.anexo__text-center
+                        p.mt-3 Es un derivado lácteo, con vida útil similares.
+              tr
+                
+                td
+                  .col-lg12
+                    a.anexo__texto.text-center
+                      p.mt-3  Yogurt fitness   
+                td 
+                  .col-lg-12
+                    a.anexo__texto.text-center
+                      p.mb-3 Tarro x 2.000. ml. 
+                      p.mb-3 Bolsa x 1.000. ml. 
+                      p.mb-3 Vaso x  200.  ml. 
+                
 
 
-    separador
-    #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1 Funcionalidad del portafolio
+    
+    #t_3_1.titulo-segundo.color-acento-contenido.mt-5
+      h2 3.1 Funcionalidad del portafolio de productos
 
     .row
       .col-lg-12
-          p.mb-5 <b>La estructura de un portafolio permite varias funcionalidades que contribuyen a la gestión de mercadeo y ventas en las empresas de alimentos, como son:</b>
-      .col-lg-6
+          p.mb-5 La estructura de un portafolio permite varias funcionalidades que contribuyen a la gestión de mercadeo y ventas en las empresas de alimentos, como son:
+      
+      
+    .row  
+      .col-lg-4
           img(src="@/assets/curso/temas/tema3/img4_tema_3.png", alt="alt")
           figcaption <p>Ejemplo de portafolio de productos en canal convencional y canal web de empresas de alimentos</p>
 
-      .col-sm.mb-5.mb-sm-0
+      .col-lg-8.sm.mb-5.mb-sm-0
         h4 
         ul.lista-ul--color
           li 
@@ -177,19 +186,21 @@
       .col-lg-6
           img(src="@/assets/curso/temas/tema3/img5_tema_3.svg", alt="alt") 
       .col-lg-6
-          p.mb-5 Cada categoría o producto dentro de una línea puede ser administrado por un director independiente y distinto, quienes establecerán un plan de acción individual y objetivos a corto plazo. La ruta de portafolio de producto es una herramienta que permite visualizar cómo se correlacionan los planes de cada línea o producto dentro de los objetivos generales de la empresa; en general la ruta de portafolio establece las estrategias y la dirección de todo el equipo de productos, facilitando comunicar cómo esperan que evolucione cada producto, y la relación con las otras líneas, los plazos y los objetivos de las diferentes áreas de una empresa.
+          p.mb-3 Cada categoría o producto dentro de una línea puede ser administrado por un director independiente y distinto, quienes establecerán un plan de acción individual y objetivos a corto plazo. La ruta de portafolio de producto es una herramienta que permite visualizar cómo se correlacionan los planes de cada línea o producto dentro de los objetivos generales de la empresa; en general la ruta de portafolio establece las estrategias y la dirección de todo el equipo de productos, facilitando comunicar cómo esperan que evolucione cada producto, y la relación con las otras líneas, los plazos y los objetivos de las diferentes áreas de una empresa.
           p.mb-5 Dentro de la ruta de portafolio se define que categorías o líneas de producto se deben ofertar en cada uno de los canales: página web, redes sociales, Apps, banners promocionales, canales de tiendas de barrio, canales de grandes superficies etc., así mismo, con las extensiones horizontales y su presentación o extensión vertical, lo que debe orientarse a las metas y proyectos desde cada dirección de categoría o producto.
+    .row  
       .col-lg-12
           p.mb-0-mt-5 A continuación, se presenta un ejemplo de la ruta de un portafolio de producto a través de un esquema o tabla.  
    
-   
-    .titulo-sexto.color-acento-contenido.mb-3.mt-5
-      p.mb-0 <b>Figura.</b> Ejemplo de un esquema de ruta de portafolio de productos
-         
-    figure
-      img(src='@/assets/curso/temas/tema3/img10_tema_3.svg', alt='Texto que describa la imagen')
-      br
-      figcaption <p>Fuente: elaboración propia experto</p>
+    .row
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-3.mt-5
+          p.mb-0 <b>Figura.</b> Ejemplo de un esquema de ruta de portafolio de productos
+    .row        
+      .col-lg-12  
+        figure.mt-3
+          img(src='@/assets/curso/temas/tema3/img10_tema_3.svg', alt='Texto que describa la imagen')
+          figcaption.mt-3 <p>Fuente: elaboración propia experto</p>
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
@@ -199,7 +210,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img6_tema_3.png')})`}"
         )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto-t3.p-4
         p.mb-0 Los alimentos para su comercialización, venta y distribución requieren de un envase, el cual es el que protege y reserva el alimento para que cumpla su vida útil y lo protege de contaminaciones patógenas, así mismo sirve como instrumento (en muchos casos), de soporte de la ficha de composición e imagen de promoción de marca. Los empaques y embalajes se clasifican de la siguiente manera.
 
 
