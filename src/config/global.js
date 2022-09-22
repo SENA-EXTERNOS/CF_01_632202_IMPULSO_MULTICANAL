@@ -194,17 +194,95 @@ export default {
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Alimento',
+      significado:
+        'es un producto de origen natural o elaborado con fines de ser consumido, para aportar al cuerpo humano nutrientes y/o energía, bien sean estos líquidos o solidos',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Alimento contaminado',
+      significado:
+        'alimento de origen natural o elaborado que presenta condiciones de degradación o contiene agentes de microorganismos, sustancias extrañas, no propias para el consumo, en cantidades superiores a las admitidas o permitidas por el cuerpo humano y las normas nacionales o internacionales.',
+    },
+    {
+      termino: 'Autoridades Sanitarias',
+      significado:
+        'son las entidades públicas de Salud del orden nacional o local, que ejercen funciones de expedición de normas, inspección, vigilancia y control de prevención para garantizar la salud pública de las personas y el cumplimiento de las normas.',
+    },
+    {
+      termino: 'Inocuidad',
+      significado:
+        'es la característica natural de los alimentos en la que no causarán daño al consumidor, se debe mantener en adecuadas condiciones naturales o de integridad de sus componentes, sin agentes tóxicos o de microrganismos.',
+    },
+    {
+      termino: 'Envase primario',
+      significado:
+        'es el elemento que soporta y está en contacto directo con el alimento, protegiéndolo desde su fabricación o elaboración hasta su entrega su consumo.',
+    },
+    {
+      termino: 'Plan sanitario',
+      significado:
+        'es el conjunto de actividades y características que deben cumplir las empresas y sus recursos como bodegas, edificaciones, equipos, utensilios, para la fabricación, elaboración y procesamiento, obtención, almacenamiento y distribución de alimentos, de manera regular.',
+    },
+    {
+      termino: 'Portafolio de productos',
+      significado:
+        'es el conjunto de productos que una empresa pone en oferta y comercialización a sus diferentes tipos de clientes, los cuales están ordenados por líneas o categorías de productos, siendo que la empresa es la que establece dichas categorías para su gestión.',
+    },
+    {
+      termino: 'Norma sanitaria',
+      significado:
+        'son las disposiciones emitidas por el gobierno o las entidades sanitarias para cumplimiento de las personas o entidades que participan en las actividades de fabricación elaboración de productos alimentarios.',
+    },
+    {
+      termino: 'Vida útil del producto',
+      significado:
+        'es el periodo de tiempo que tiene un producto para su consumo sin entrar en riesgos o degradación, el cual está comprendido entre la fecha de fabricación y la fecha de vencimiento que es un estimado de cuando sus características organolépticas pueden cambiar.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Calvo, H. E. (2015). <em>Alimentando lo sentidos.</em> Zaragoza: Universidad de Zaragoza. Obtenido de:',
+      link:
+        'https://ucc.unizar.es/sites/ucc.unizar.es/files/enziende_materialdidactico_alimentando_web.pdf',
+    },
+    {
+      referencia:
+        'Iciar Astiasarán, A., & Hernández, A. M. (2013). ALIMENTOS- <em>Composición y Propiedades.</em> Madrid, España: McGraw-Hill. Obtenido de:',
+      link:
+        'https://fisiogenomica.com/assets/Blog/pdf/Alimentos-Composicion-y-Propiedades.pdf',
+    },
+    {
+      referencia:
+        'Maza Sanchez, M. A. (2013). <em>Manipulador de Alimentos.</em> México D.F.: Limusa.',
+      link: '',
+    },
+    {
+      referencia:
+        'Minisrerio de Salud, y Protección Social M. d. (2015). Resolución 0719 de 2015. Obtenido de:',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-0719-de-2015.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección social.Salud, M. d. (2013). Resolución 2674 de 2013. Obtenido de: ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-2674-de-2013.pdf',
+    },
+    {
+      referencia:
+        'Presidencia de la Republica, P. d. (1997). Decreto 3075 de 1997. Obtenido de:',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3337#:~:text=%2D%20Sistema%20de%20Control.,la%20distribuci%C3%B3n%20de%20productos%20terminados',
+    },
+    {
+      referencia:
+        'Rodríguez H, B. G. (2015). Las enfermedades transmitidas por alimentos, un problema sanitario. <em>Rev. Electrónica Veterinaria,</em> P16.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vélez Ruiz, J. F. (2018). <em>Introducción a las Propiedades Físicas de los Alimentos.</em> Editorial Académica Española.',
       link: '',
     },
   ],
