@@ -180,16 +180,20 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Buenas prácticas de manufactura.',
+      referencia:
+        'Instituto Nacional de Penitenciaria, Universidad Autónoma de Occidente [IMPEC](Sf.).  Manual de buenas Prácticas de Manufactura Actividad Productiva de Panadería. (S.E)',
+      tipo: 'Manual',
+      link:
+        'https://red.uao.edu.co/bitstream/handle/10614/9817/T7485A.pdf?sequence=2&isAllowed=y',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Buenas prácticas de manufactura.',
+      referencia:
+        'Organización Panamericana de la Salud. Oficina Regional de la Organización Mundial de la Salud. [OPS/OMS](Sf.).  Manual de Capacitación para Manipuladores de Alimentos. (S.E.)',
+      tipo: 'Manual',
+      link:
+        'https://www.paho.org/hq/dmdocuments/manual-manipuladores-alimentos-2014.pdf',
     },
   ],
   glosario: [

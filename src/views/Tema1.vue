@@ -7,25 +7,34 @@
         span 1
       h1 Buenas Prácticas de manipulación de alimentos
 
-
     .row
+      .col-lg-12
+          p.mb-0 En la producción y comercialización de alimentos se deben cumplir las normas que establecen las buenas prácticas de manipulación de alimentos, siendo necesario reconocer los aspectos en los que se deben desarrollar las buenas prácticas y la normatividad vigente del país, para este caso Colombia que se estudiarán en este primer tema. 
+    .row.mt-3
       .col-lg-4
           img(src="@/assets/curso/temas/tema1/img1_tema_1.svg", alt="alt")
       .col-lg-8
-          p.mb-5 El desarrollo de la actividades relacionadas con la manipulación de alimentos presumen niveles de contaminación de diversas formas y diversos orígenes lo que estimula su degradación y daño de los mismos; por tanto con el paso de los años se hizo perentorio el mejoramiento de los procesos y actividades humanas cuando entran en contacto con los alimentos, siendo así, que surgen <b>las denominadas BPM que significa:</b> Buenas Prácticas de Manufactura, las cuales se pueden definir como <b style= "color:#F57C22;">el conjunto de lineamientos generales que se establece por parte de las entidades de control sanitario, para promover y preservar la  higiene en los procesos y actividades donde se realiza manipulación, adecuación, preparación, elaboración o armado, almacenamiento, envase, transporte, distribución.</b>    
+          p.mb-5 El desarrollo de las actividades relacionadas con la manipulación de alimentos presumen niveles de contaminación de diversas formas y diversos orígenes lo que estimula su degradación y daño de los mismos; por tanto con el paso de los años se hizo perentorio el mejoramiento de los procesos y actividades humanas cuando entran en contacto con los alimentos, siendo así, que surgen las <b>denominadas BPM que significa: Buenas Prácticas de Manufactura,</b> que se define a continuación. <br> <b style= "color:#F57C22;">el conjunto de lineamientos generales que se establece por parte de las entidades de control sanitario, para promover y preservar la  higiene en los procesos y actividades donde se realiza manipulación, adecuación, preparación, elaboración o armado, almacenamiento, envase, transporte, distribución.</b>    
     
     .bloque-texto-g.color-secundario2.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2_tema_1.svg')})`}"
         )
       .bloque-texto-g__texto-t3.p-4
-        p.mb-0 En Colombia una de las autoridades sanitarias encargadas de promover y vigilar estas prácticas adecuadas de manufactura de alimentos es el IVIMA- El Instituto Nacional de Vigilancia de Medicamentos y Alimentos, y quien emite principios y conceptos sanitarios frente a las prácticas y los ajustes a que se dé a lugar. Así mismo participan en este fomento y desarrollo de buenas prácticas, el Instituto Colombiano Agropecuario – ICA. El Ministerio de Salud y las Entidades Territoriales de Salud de los diferentes departamentos y municipios del país.
+        p.mb-0 En Colombia, una de las autoridades sanitarias encargadas de promover y vigilar estas prácticas adecuadas de manufactura de alimentos es el INVIMA- El Instituto Nacional de Vigilancia de Medicamentos y Alimentos, y quien emite principios y conceptos sanitarios frente a las prácticas y los ajustes a que se dé a lugar. Así mismo participan en este fomento y desarrollo de buenas prácticas, el Instituto Colombiano Agropecuario – ICA. El Ministerio de Salud y las Entidades Territoriales de Salud de los diferentes departamentos y municipios del país.
    
     
     #t_1_1.titulo-segundo.color-acento-contenido.mt-5
       h2 1.1 Aspectos en los que se deben desarrollar buenas prácticas de manufactura de alimentos
-    
     .row
+      .col-lg-12
+        p.mb-0 El desarrollo de buenas prácticas de manufactura exige que se contemplen algunos aspectos que aporten al cumplimiento de la normativa y que en la  empresa se pueda garantizar la manipulación correcta de los alimentos que comercializa, a continuación se describen los aspectos. 
+    .row.mt-3
+      .col-lg-12
+        p.mb-0 La doctrina desarrollada a partir de la normatividad establecida por parte de las entidades de sanidad en Colombia para promover las buenas prácticas de manufactura de alimentos se soporta en un conjunto de normas que abarcan diversos aspectos a desarrollar en las empresas, en cabeza de sus directivas y de los individuos que participan en los procesos y actividades dentro de la cadena productiva y comercial de los alimentos, los cuales se pueden resumir en la siguiente manera:
+    
+    
+    .row.mt-5
       .col-lg-10
         figure.mb-7.img1_t1 
           img(src="@/assets/curso/temas/tema1/img3_tema_1.svg", alt="Texto que describa la imagen")
@@ -42,7 +51,7 @@
             
             .col-md-8.mb-4.mb-md-0
               h4 Equipos e Instalaciones
-              p En este aspectos los equipos y las instalaciones de operación (bodegas), en general deben estar diseñadas con características adecuadas a cada tipo de alimentos bien sean estos espacios físicos secos, de cuartos fríos, en materiales resistentes, impermeables, sin filtraciones o defectuosos con fisuras, no porosos, no absorbentes o que permitan filtraciones, de fácil acceso para realizar las actividades de limpieza, que presenten una distribución secuencial y lógica al proceso de producción empaque y despacho, con sus debidas delimitaciones y señalizaciones y adecuaciones de aislamiento para evitar traslado de atmosferas atmósferas o contaminaciones por tipos de poluciones o gases, etc.. Debe haber servicios sanitarios suficientes y suministro de recursos como el agua, entre otros.
+              p En este aspecto los equipos y las instalaciones de operación (bodegas), en general deben estar diseñadas con características adecuadas a cada tipo de alimentos bien sean estos espacios físicos secos, de cuartos fríos, en materiales resistentes, impermeables, sin filtraciones o defectuosos con fisuras, no porosos, no absorbentes o que permitan filtraciones, de fácil acceso para realizar las actividades de limpieza, que presenten una distribución secuencial y lógica al proceso de producción empaque y despacho, con sus debidas delimitaciones y señalizaciones y adecuaciones de aislamiento para evitar traslado de atmosferas atmósferas o contaminaciones por tipos de poluciones o gases, etc Debe haber servicios sanitarios suficientes y suministro de recursos como el agua, entre otros.
                 
         .py-3.py-md-4(titulo="Requisitos de Higiene y fabricación")
           .row
@@ -74,7 +83,7 @@
               h4 Aseguramiento a la Calidad e Inocuidad
               p Las empresas deben establecer procesos y procedimientos bien definidos que garanticen de manera permanente las características de los productos, tal como fueron diseñados y en conformidad a las características técnicas. Complementariamente y en función la gestión operativa de producción se debe implementar un esquema de controles de calidad preventivos los cuales se deben establecer.
         
-        .py-3.py-md-4(titulo="Almacenamientos, Distribución, ransportes y Comercialización")
+        .py-3.py-md-4(titulo="Almacenamientos, Distribución, transportes y Comercialización")
           .row
             .col-md-4
               figure
@@ -165,8 +174,8 @@
                           p <b>Para ver la resolución clic aquí</b>
                           p.mb-0 Anexo: 632202_CF1_a02_ Resolución 2674 de 2013
 
-      
-        .col-lg-10.mt-3
+      .row
+        .col-lg-12.mt-3
           .cajon.color_anexo2.p-4
             .h5 Reglas y disposiciones en materia de alimentos
             p Para complementar estos aspectos normativos de buenas prácticas de manufactura de alimentos y otros relacionados, se invita a consultar el nomograma de la Alcaldía Mayor de Bogotá, que recoge estas dos reglamentaciones, y expone otro conjunto de disposiciones en materia de alimentos, a través del siguiente link:

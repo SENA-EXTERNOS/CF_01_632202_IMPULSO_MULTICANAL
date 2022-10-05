@@ -223,7 +223,7 @@
           figure
             img(src='@/assets/curso/temas/tema3/img7_tema_3.svg', alt='Texto que describa la imagen')
 
-      .row(titulo="Embalaje de venta, empaque primario, o unidad de consumo")
+      .row(titulo="Empaque y embalaje secundario o colectivo")
         .col-md-6.mb-4.mb-md-0
           p Es una agrupación de embalajes primarios que buscan dar mayor protección al producto, facilitando la comercialización del producto a una mayor escala y movilidad. Son, las cajas de cartón (también podrían ser de plástico). Por ejemplo, en el caso de la leche, una bolsa individual sería un embalaje primario y la caja de cartón que contiene seis representaría un embalaje secundario.
               
@@ -231,7 +231,7 @@
           figure
             img(src='@/assets/curso/temas/tema3/img8_tema_3.svg', alt='Texto que describa la imagen')
 
-      .row(titulo="Embalaje de venta, empaque primario, o unidad de consumo")
+      .row(titulo="Embalaje terciario")
         .col-md-6.mb-4.mb-md-0
           p El embalaje terciario reúne embalajes primarios y secundarios para así crear una unidad de carga mayor cuya forma más extendida son las estibas o contenedores o las cajas de cartón modulares que los conforman.
                 

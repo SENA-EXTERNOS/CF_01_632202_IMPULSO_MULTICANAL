@@ -6,8 +6,10 @@
       .titulo-principal__numero
         span 2
       h1 Clasificación de Alimentos
-
     .row
+      .col-lg-12
+          p.mb-0 En la producción y comercialización de alimentos, es necesario reconocer cómo estos se clasifican, para identificar el tipo de riesgo y las propiedades que tiene, de esa forma se pueden establecer métodos de almacenamiento, manipulación, transporte, promoción, portafolios, entre otros. En este segundo tema se describe cómo se clasifican los alimentos. 
+    .row.mt-3
       .col-lg-8
           p.mb-5 En Colombia hasta el año 2015, solamente los alimentos con marca y nombre registrado tenían como requisito para su promoción y comercialización contar con registro sanitario, sin embargo, los entes encargados de la política de sanidad e inocuidad de alimentos, evidenciaron la necesidad de contar con un esquema que permitiera focalizar y facilitar el ejercicio de vigilancia y control sobre los alimentos, parametrizar los protocolos de cumplimiento para los mismos, en aras de dar un tratamiento diferencial y focalizado que favorezca a las empresas y a los consumidores desde su función, así como tener, un mejor control sobre el sector, por tal motivo, el gobierno a través del Ministerio de Salud y Protección Social, emite la Resolución 0719 del 11 de marzo de 2015,  <b style= "color:#F57C22;">“Por la cual se establece la clasificación de alimentos para consumo humano de acuerdo al riesgo en salud pública” (Ministerio de Salud y Protección Social, 2015).</b>    
       .col-lg-4
@@ -20,7 +22,7 @@
       .col-lg-4
         img(src="@/assets/curso/temas/tema2/img2_tema_2.svg")
       .col-lg-8
-        p.mb-4 El Ministerio de Salud y Protección Social, desde la Resolución 2674 de 2013 y la Resolución 0719 de 2015, establecen las definiciones y tipologías de los tipos de riesgos de los alimentos, conceptos que serán tenidos en cuenta en la clasificación de los alimentos.
+        p.mb-4 El Ministerio de Salud y Protección Social, desde la Resolución 2674 de 2013 y la Resolución 0719 de 2015, establecen las definiciones y tipologías de los tipos de riesgos de los alimentos, conceptos que serán tenidos en cuenta en la clasificación de los alimentos y que en este tema se abordarán. 
         p.mb-5 Los siguientes son los tipos de riesgo que se pueden identificar en los alimentos y que pueden afectar la salud pública:
 
   
@@ -30,7 +32,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Alimentos de mayor riesgo
-            p Este tipo de alimentos según la Resolución 0719 de 2015 (Ministerio de Salud y Protección Social, 2015), está constituido por aquellos alimentos que pueden contener microorganismos patógenos que favorezcan la formación de toxinas, o productos químicos nocivos a la salud.
+            p Este tipo de alimentos según la Resolución 0719 de 2015 (Ministerio de Salud y Protección Social, 2015), está constituido por aquellos alimentos que pueden contener microorganismos patógenos que favorezcan la formación de toxinas, o productos químicos nocivos a la salud, entre los que están los lácteos y las carnes. 
 
           .col-md-6
             figure
@@ -40,7 +42,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Alimentos de riesgo medio
-            p En este tipo alimentos que distingue la Resolución 0719 de 2015 (Ministerio de Salud y Protección Social, 2015), están aquellos que pueden albergar microorganismos patógenos, que regularmente no manifiestan su desarrollo y crecimiento gracias a sus características o por las formas de procesamiento del mismo, por ende, existen bajas probabilidades de contenerlos, sin embargo, por razones de mabiente y manejo, es posible que se vuelvan nocivos para la salud. 
+            p En este tipo alimentos que distingue la Resolución 0719 de 2015 (Ministerio de Salud y Protección Social, 2015), están aquellos que pueden albergar microorganismos patógenos, que regularmente no manifiestan su desarrollo y crecimiento gracias a sus características o por las formas de procesamiento del mismo, por ende, existen bajas probabilidades de contenerlos, sin embargo, por razones de mabiente y manejo, es posible que se vuelvan nocivos para la salud. En este grupo están los cereales.  
               
           .col-md-6
             figure
@@ -58,7 +60,7 @@
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Normativa para las buenas prácticas de manufactura en alimentos 
+      h2 2.2 Clasificación de Alimentos para consumo humano.
     .row
       .col-lg-8
         p.mb-4 El gobierno a través del Ministerio de Salud y Protección Social y la emisión de la Resolución 0719 del 11 de marzo de 2015, después de un estudio de la composición de las empresas del sector, de los bienes y productos para el consumo directo o indirecto (materias primas insumos o suministros), realiza la clasificación de los alimentos para el consumo humano en quince grandes grupos generales, los cuales, a su vez se subdividen en subcategorías, una para cada tipo de alimento y señala el tipo de riesgo para cada subcategoría, en conformidad a la categorización o tipología de los riesgos en alimentos de alto, medio y bajo riesgo para la salud.  
@@ -140,7 +142,7 @@
             .h5 Anexo
             p Para ampliar detalles respecto de esta clasificación de los grupos de alimentos para consumo humano en conformidad a lo dispuesto en la Resolución 0719 de 2015, y detallar el tipo de riesgo asociado según la norma, se invita a consultar el Anexo- Resolución_719_de_2015-Clasificación de Alimentos, adjunto a este componente formativo.
             .col-lg-10
-              a.anexo.mb-4.mt-5(:href="obtenerLink('/downloads/Anexo- Resolución_719_de_2015-Clasificación de Alimentos.pdf')" target="_blank")
+              a.anexo.mb-4.mt-5(:href="obtenerLink('/downloads/Anexo-Resolución_719_de_2015-Clasificación_de_Alimentos.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

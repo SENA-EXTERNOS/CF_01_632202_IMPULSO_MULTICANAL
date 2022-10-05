@@ -13,17 +13,17 @@
       .col-lg-8
         p.mb-4 En la industria de los alimentos, la ficha técnica es un documento pequeño de carácter obligatorio y legal, que se incluye en el empaque primario.  Se utiliza para informar a los consumidores finales y clientes en general, así como a las autoridades sanitarias, respecto de las características de un producto alimenticio, incluyendo las condiciones de conservación y presentación de ingredientes, los peligros que puede tener el consumo, la lista de los aportes y valores nutricionales, entre otros aspectos. Es el nivel de información necesaria que se debe publicar para la comercialización de cualquier producto alimentario.
     
-    .row.img1_t1
-      .col-lg-10
+    .row
+      .col-lg-10.img1_t4
         .titulo-sexto.color-acento-contenido.mb-3.mt-5
           p.mb-0 <b>Figura.</b> Ficha técnica de ejemplo: producto alimenticio de Helado de Fruta
-
-      .col-lg-10  
+    .row
+      .col-lg-10.img1_t42  
         figure
           img(src='@/assets/curso/temas/tema4/img2_tema_4.svg', alt='Texto que describa la imagen')
           figcaption <p>Fuente: slideshare.net - Ficha técnica de helado de frutas</p>
-
-      .col-lg-10
+    .row
+      .col-lg-10.img1_t43
         a.anexo.mb-4.mb-lg-0.mt-3(href="https://es.slideshare.net/leticiaromeroquebrandogarvimbas/ficha-tecnica-de-helado-de-frutas" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
