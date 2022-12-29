@@ -149,7 +149,7 @@
                   h3.mb-1 Clasificación de Alimentos
                   p Para ampliar detalles respecto de esta clasificación de los grupos de alimentos para consumo humano, en conformidad con lo dispuesto en la Resolución 0719 de 2015, y detallar el tipo de riesgo asociado, según la norma, se invita a consultar el anexo Resolución_719_de_2015-Clasificación de Alimentos.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-Resolución_719_de_2015-Clasificación_de_Alimentos.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-resolución_719_de_2015.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
