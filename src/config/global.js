@@ -212,6 +212,11 @@ export default {
         'son las entidades públicas de Salud del orden nacional o local, que ejercen funciones de expedición de normas, inspección, vigilancia y control de prevención para garantizar la salud pública de las personas y el cumplimiento de las normas.',
     },
     {
+      termino: 'Clasificación de alimentos',
+      significado:
+        'identificación de los alimentos en función de su producción y comercialización para reconocer cómo estos se clasifican y, de este modo, identificar el tipo de riesgo y las propiedades que tiene.',
+    },
+    {
       termino: 'Inocuidad',
       significado:
         'es la característica natural de los alimentos en la que no causarán daño al consumidor, se debe mantener en adecuadas condiciones naturales o de integridad de sus componentes, sin agentes tóxicos o de microrganismos.',

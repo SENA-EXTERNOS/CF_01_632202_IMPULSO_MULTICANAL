@@ -7,12 +7,17 @@
         p.mb-0 <b>Impulso multicanal de productos alimenticios</b> 
         p.mb-0 Uso de códigos de barras para la identificación de productos alimenticios
 
-    p.mb-5.mt-5 Establecer una ficha técnica para la comunicación y desarrollo comercial de productos alimenticios, de manera responsable, garantizando la veracidad y siempre cumplimiento de la normativa vigentes de la región o del país, lo anterior, traerá beneficios al tener clientes confiados, seguros y satisfechos.
+    p.mb-5.mt-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
-
+      .col-auto
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Síntesis
 
 </template>
 
