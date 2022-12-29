@@ -9,10 +9,10 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row
+    .row.mb-3
       .col-lg-8
-          p.mb-3 Bienvenido a este componente formativo que es una guía para reconocer <b>el proceso de fomento y comercialización de productos alimenticios, marcas asociadas, buenas prácticas, que permiten incrementar ventas y posicionar productos en el mercado,</b> a través, de múltiples canales de comunicación, donde hoy por hoy tienden las empresas a hacer presencia e impulso de su actividad comercial y son la tendencia comercial para ampliar las fronteras de actuación operativa de las empresas.
-          p.mb-3 Los temas se desarrollan, a través de diferentes recursos que dinamizan el contenido, cómo  vídeos, imágenes y gráficos, en un primer bloque puede hacer  un reconocimiento  sobre la clasificación de los alimentos y las buenas prácticas de manufactura, seguido a esto conocer los pasos para realizar  el diseño de un portafolio de productos y su ficha técnica, etapas indispensables para  garantizar la idoneidad de los productos y el cumplimiento con  las exigencias de buenas prácticas de manufactura.
+          p Apreciado aprendiz, bienvenido a este componente formativo, donde se abordará el proceso de fomento y comercialización de productos alimenticios, marcas asociadas y buenas prácticas, que permitan incrementar ventas y posicionar productos en el mercado, a través, de múltiples canales de comunicación donde, hoy por hoy, tienden las empresas a hacer presencia e impulso de su actividad comercial y son la tendencia comercial para ampliar las fronteras de actuación operativa de las empresas.
+          p Los temas se desarrollan, a través de diferentes recursos que dinamizan el contenido cómo vídeos, imágenes y gráficos. En un primer bloque se hará un reconocimiento de la clasificación de los alimentos y las buenas prácticas de manufactura y, posteriormente, conocer los pasos para realizar el diseño de un portafolio de productos y su ficha técnica, etapas indispensables para garantizar la idoneidad de los productos y el cumplimiento con las exigencias de buenas prácticas de manufactura.
       .col-lg-4
           img(width="160" height="315" src="@/assets/curso/temas/introduccion/img1_introduccion.png", alt="alt")
 
@@ -20,7 +20,6 @@
     .row
       .col-lg-12
           p.mb-5 En el siguiente video se hace una introducción a la temática que se estudiará a lo largo del componente formativo.
-          p.mb-3 <b>¡Muchos éxitos en este proceso de aprendizaje!</b>
 
     .row
       figure

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Gestión de portafolio de productos alimenticios',
     descripcionCurso:
-      'En este componente formativo se desarrollarán los aspectos<br> relacionados con la estructuración de un portafolio de productos, las<br> buenas prácticas de manufactura de alimentos, la clasificación de los<br> mismos por categorías, presentación por unidades de medida, así<br> como se trataran los aspectos relacionados con las fichas técnicas de<br> los productos que componen la oferta de portafolio a impulsar.',
+      'En este componente formativo se desarrollarán aspectos relacionados con la estructuración de un portafolio de productos, las buenas prácticas de manufactura de alimentos, la clasificación de los mismos por categorías y la presentación por unidades de medida. De igual manera, se tratarán aspectos relacionados con las fichas técnicas de los productos que componen la oferta de portafolio a impulsar.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -48,7 +48,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Aspectos en los que se deben desarrollar buenas prácticas de manufactura de alimentos',
+              'Aspectos de las buenas prácticas de manufactura de alimentos',
             hash: 't_1_1',
           },
           {
@@ -65,26 +65,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Clasificación de Alimentos',
+        titulo: 'Clasificación de los alimentos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Clasificación de riesgos en los alimentos',
+            titulo: '2.1  Clasificación de riesgos de los alimentos',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo:
-              'Normativa para las buenas prácticas de manufactura en alimentos',
+            titulo: 'Clasificación de alimentos para consumo humano',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Propiedades organalépticas',
+            titulo: 'Propiedades organolépticas',
             hash: 't_2_3',
           },
         ],
