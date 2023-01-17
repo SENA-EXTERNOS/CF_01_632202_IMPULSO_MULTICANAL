@@ -58,7 +58,8 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5.mb-0 Tabla 2
-          | #[i Ejemplo de estructura de un portafolio de producto]
+          br
+          | #[i Ejemplo de estructura de un portafolio de producto.]
 
         .tabla-a.color-acento-contenido 
           table
@@ -189,11 +190,12 @@
           p.mb-5 Dentro de la ruta de portafolio se define qué categorías o líneas de producto se deben ofertar en cada uno de los canales: página web, redes sociales, Apps, banners promocionales, canales de tiendas de barrio, canales de grandes superficies etc., así mismo, con las extensiones horizontales y su presentación o extensión vertical, lo que debe orientarse a las metas y proyectos desde cada dirección de categoría o producto.
     .row  
       .col-lg-12
-          p.mb-0-mt-5 A continuación, se presenta un ejemplo de la ruta de un portafolio de producto a través de un esquema o tabla.
+          p.mb-5 A continuación, se presenta un ejemplo de la ruta de un portafolio de producto a través de un esquema o tabla.
    
     .row
       .titulo-sexto.color-acento-contenido.mb-4
-        h5.mb-0 Figura 3
+        h5.mb-0 Figura 2
+        br
         | #[i Ejemplo de un esquema de ruta de portafolio de productos]
     .row        
       .col-lg-12  

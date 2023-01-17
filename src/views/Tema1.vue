@@ -39,8 +39,9 @@
     .row.justify-content-center.mt-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 1.
-          span Buenas prácticas de manufactura de alimentos
+          h5 Figura 1
+          br
+          span.fst-italic Buenas prácticas de manufactura de alimentos.
         figure
           img(src="@/assets/curso/temas/tema1/img3_tema_1.svg", alt="Texto que describa la imagen")
       
@@ -149,7 +150,8 @@
         .col-lg-10
           .titulo-sexto.color-acento-contenido.mb-4
             h5 Tabla 1
-            span #[i Normas de parametrización de buenas prácticas en manufactura de alimentos]
+            br
+            span #[i Normas de parametrización de buenas prácticas en manufactura de alimentos.]
         .col-lg-10
           .tabla-a.color-acento-contenido 
             table
