@@ -252,7 +252,7 @@ export default {
       referencia:
         'Calvo, H. E. (2015). <em>Alimentando lo sentidos.</em> Zaragoza: Universidad de Zaragoza. Obtenido de:',
       link:
-        'https://ucc.unizar.es/sites/ucc.unizar.es/files/enziende_materialdidactico_alimentando_web.pdf',
+        'https://ucc.unizar.es/taller-de-guion-y-produccion-del-documental-cientifico/alimentando-los-sentidos',
     },
     {
       referencia:
