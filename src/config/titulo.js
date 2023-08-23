@@ -1,1 +1,1 @@
-module.exports = 'Impulso multicanal de productos alimenticios'
+module.exports = 'Gestión de portafolio de productos alimenticios'

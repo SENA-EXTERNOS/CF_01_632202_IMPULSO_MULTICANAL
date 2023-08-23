@@ -199,7 +199,7 @@
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 b Enlace web
-                p Docuemntos para ALIMENTOS : Reglamentación
+                p Documentos para ALIMENTOS : Reglamentación
 
             
 </template>

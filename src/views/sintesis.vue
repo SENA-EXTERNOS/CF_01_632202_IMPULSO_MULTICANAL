@@ -5,7 +5,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-3.mt-5
         p.mb-0 <b>Impulso multicanal de productos alimenticios</b> 
-        p.mb-0 Uso de códigos de barras para la identificación de productos alimenticios
+        p.mb-0 Síntesis: Gestión de portafolio de productos alimenticios
 
     p.mb-5.mt-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
     .row.justify-content-center

@@ -191,8 +191,7 @@ export default {
       referencia:
         'Organización Panamericana de la Salud. Oficina Regional de la Organización Mundial de la Salud. [OPS/OMS](Sf.).  Manual de Capacitación para Manipuladores de Alimentos. (S.E.)',
       tipo: 'Manual',
-      link:
-        'https://www.paho.org/hq/dmdocuments/manual-manipuladores-alimentos-2014.pdf',
+      link: 'https://www.fao.org/3/i7321s/i7321s.pdf',
     },
   ],
   glosario: [
@@ -267,7 +266,7 @@ export default {
     },
     {
       referencia:
-        'Minisrerio de Salud, y Protección Social M. d. (2015). Resolución 0719 de 2015. Obtenido de:',
+        'Ministerio de Salud, y Protección Social M. d. (2015). Resolución 0719 de 2015. Obtenido de:',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-0719-de-2015.pdf',
     },

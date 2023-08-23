@@ -17,7 +17,7 @@
     .row.justify-content-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5.mb-0 Figura 3
+          h5.mb-0 Figura 4
           br
           | #[i Ficha técnica de producto alimenticio de Helado de Frutas.]
 
@@ -95,7 +95,7 @@
     .row.justify-content-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5.mb-0 Figura 4
+          h5.mb-0 Figura 5
           br
           | #[i Uso de códigos de barras para la identificación de productos alimenticios.]
         

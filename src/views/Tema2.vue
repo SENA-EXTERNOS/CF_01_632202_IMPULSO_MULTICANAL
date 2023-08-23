@@ -184,7 +184,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Propiedades organolépticas de los alimentos
-                  p Para efectos de ampliar estos aspectos propios de las características organolépticas de los alimentos, como complemento a las pruebas físicas y como mecanismo de verificación de idoneidad de los alimentos, se sugiere revisar el Anexo- Propiedades organolépticas de los alimentos.
+                  p Para efectos de ampliar estos aspectos propios de las características organolépticas de los alimentos, como complemento a las pruebas físicas y como mecanismo de verificación de idoneidad de los alimentos, se sugiere revisar el Anexo- Alimentando los sentidos.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-Propiedades_organolepticas.pdf')" target="_blank")
                     span Descargar

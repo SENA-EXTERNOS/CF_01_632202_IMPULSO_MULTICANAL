@@ -4,48 +4,15 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       
       .row.mb-4.justify-content-center.align-items-center
-        .col.mb-4.mb-md-0
-          .tarjeta.credito.p-3.text-center.h-100
-            img.d-inline-block.mb-3(src='@/assets/template/icono-SENA.svg' style='width:70px')
-            h2 Material suministrado por el SENA:
-          
-            ul.lista-ul--color.lista-ul--separador
-              li 
-                i.fas.fa-check
-                | Documentos base académicos, matriz de correlación.
-              li 
-                i.fas.fa-check
-                | Plantilla diseño web: XD
-              li 
-                i.fas.fa-check
-                | Plantilla maquetación web: ecored-base-pkg
-              li 
-                i.fas.fa-check
-                | Plantilla actividades didácticas Storyline. 
-
-        .col-md-6.mb-4.mb-md-0
-          .tarjeta.credito.p-3.text-center.h-100
+        .col-md-10.mb-4.mb-md-0
+          .tarjeta.p-3.text-center.h-100
+            h2 Elaborado por:
             img.mx-auto.d-inline-block.mb-3(src='@/assets/template/logo_IE.png' style='width:80%;max-width:613px')
-            h2 Elaborado por Innovative Education:
-          
-            ul.lista-ul--color.lista-ul--separador
-              li 
-                i.fas.fa-check
-                | Diseño instruccional
-              li 
-                i.fas.fa-check
-                | Corrección de estilos
-              li 
-                i.fas.fa-check
-                | Diseño web
-              li 
-                i.fas.fa-check
-                | Desarrollo front-end
-        
-        
-        
-        
-          
+
+        //.col.mb-4.mb-md-0
+          .tarjeta.p-3.text-center.h-100
+            img.d-inline-block.mb-3(src='@/assets/template/icono-SENA.svg' style='width:70px')
+            
       .row.mb-4.mb-md-5
         .col-md-6.mb-4.mb-md-0
           .tarjeta.credito.p-3.text-center.h-100

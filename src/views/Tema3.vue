@@ -194,7 +194,7 @@
    
     .row
       .titulo-sexto.color-acento-contenido.mb-4
-        h5.mb-0 Figura 2
+        h5.mb-0 Figura 3
         br
         | #[i Ejemplo de un esquema de ruta de portafolio de productos.]
     .row        
