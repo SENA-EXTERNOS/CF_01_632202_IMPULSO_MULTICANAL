@@ -87,7 +87,7 @@
                 
             .col-md-8.mb-4.mb-md-0
               h4 Aseguramiento a la calidad e inocuidad
-              p Las empresas deben establecer procesos y procedimientos bien definidos que garanticen, de manera permanente, las características de los productos, tal como fueron diseñados y en conformidad con las características técnicas. Complementariamente y en función la gestión operativa de producción, se debe implementar un esquema de controles de calidad preventivos, los cuales se deben establecer:
+              p Las empresas deben establecer procesos y procedimientos bien definidos que garanticen, de manera permanente, las características de los productos, tal como fueron diseñados y en conformidad con las características técnicas. Complementariamente y en función la gestión operativa de producción, se debe implementar un esquema de controles de calidad preventivos, los cuales se deben establecer.
 
         .py-3.py-md-4(titulo="Planes de saneamiento")
           .row  

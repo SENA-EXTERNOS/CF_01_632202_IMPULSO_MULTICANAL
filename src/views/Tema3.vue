@@ -123,7 +123,7 @@
                   .row
                     .col-lg-12
                       a.anexo__text-center
-                        p.mt-3 Es un derivado lácteo, con vida útil similares.
+                        p.mt-3 Es un derivado lácteo, con vida útil similar.
               tr
                 
                 td

@@ -9,7 +9,7 @@
 
     .row.mb-5
       .col-lg-7
-        p Es necesario que las empresas cumplan con la normativa y requerimientos legales para la producción y comercialización de alimento, entre los que está la ficha técnica qué debe tener todo producto.
+        p Es necesario que las empresas cumplan con la normativa y requerimientos legales para la producción y comercialización de alimento, entre los que está la ficha técnica que debe tener todo producto.
         p En la industria de los alimentos, la ficha técnica es un documento pequeño de carácter obligatorio y legal que se incluye en el empaque primario. Se utiliza para informar a los consumidores finales y clientes en general, así como a las autoridades sanitarias, respecto de las características de un producto alimenticio, incluyendo las condiciones de conservación y presentación de ingredientes, los peligros que puede tener el consumo, la lista de los aportes y valores nutricionales, entre otros aspectos. Es el nivel de información necesaria que se debe publicar para la comercialización de cualquier producto alimentario.
       .col-lg-5
         img(src="@/assets/curso/temas/tema4/img1_tema_4.svg")
