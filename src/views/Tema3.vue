@@ -112,7 +112,7 @@
                 td
                   .col-lg12
                     a.anexo__texto.text-center
-                      p.mt-3 Yogurt entero 
+                      p.mt-3 #[em Yogurt] entero 
                 td 
                   .col-lg-12
                     a.anexo__texto.text-center
@@ -129,7 +129,7 @@
                 td
                   .col-lg12
                     a.anexo__texto.text-center
-                      p.mt-3  Yogurt fitness   
+                      p.mt-3  #[em Yogurt fitness]   
                 td 
                   .col-lg-12
                     a.anexo__texto.text-center

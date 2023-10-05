@@ -119,7 +119,7 @@
           li 
             .lista-ol--cuadro__vineta2
               span 11
-            | Productos de Azúcar sus sucedáneos, donde sean componente principal.
+            | Productos de azúcar sus sucedáneos, donde sean componente principal.
           li 
             .lista-ol--cuadro__vineta2
               span 12
