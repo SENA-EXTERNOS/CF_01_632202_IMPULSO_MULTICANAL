@@ -181,7 +181,7 @@ export default {
     {
       tema: 'Buenas prácticas de manufactura.',
       referencia:
-        'Instituto Nacional de Penitenciaria, Universidad Autónoma de Occidente [IMPEC](Sf.).  Manual de buenas Prácticas de Manufactura Actividad Productiva de Panadería. (S.E)',
+        'Instituto Nacional de Penitenciaria, Universidad Autónoma de Occidente [IMPEC](Sf.).  Manual de Buenas Prácticas de Manufactura Actividad Productiva de Panadería. (S.E)',
       tipo: 'Manual',
       link:
         'https://red.uao.edu.co/bitstream/handle/10614/9817/T7485A.pdf?sequence=2&isAllowed=y',
