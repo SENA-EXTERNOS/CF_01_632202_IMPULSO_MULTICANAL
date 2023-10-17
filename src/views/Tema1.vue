@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido.mb-5
       .titulo-principal__numero
         span 1
-      h1 Buenas Prácticas de manipulación de alimentos
+      h1 Buenas prácticas de manipulación de alimentos
 
 
     .row.mb-5

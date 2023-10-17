@@ -71,7 +71,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '2.1  Clasificación de riesgos de los alimentos',
+            titulo: 'Clasificación de riesgos de los alimentos',
             hash: 't_2_1',
           },
           {
